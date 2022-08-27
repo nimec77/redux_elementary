@@ -1,0 +1,37 @@
+name: redux_elementary
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  cached_network_image: ^3.2.1
+  dio: ^4.0.6
+  elementary: ^1.5.0
+  freezed: ^2.1.0+1
+  json_annotation: ^4.6.0
+  json_serializable: ^6.3.1
+  meta: ^1.7.0
+  provider: ^6.0.3
+  redux: ^5.0.0
+  redux_epics: ^0.15.1
+  shared_preferences: ^2.0.15
+  fast_immutable_collections: ^7.4.1
+  freezed_annotation: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mocktail: ^0.3.0
+  build_runner: ^2.2.0
+
+flutter:
+  uses-material-design: true
